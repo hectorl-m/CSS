@@ -3,12 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Que es CSS</title>
+    <title>Introducción a CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+        }
+        p {
+            color: #7f8c8d;
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 4px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .resources li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Que es CSS</h1>
-    <p>CSS (Cascading Style Sheets) es un lenguaje que define el estilo y diseño de páginas web, <br>separando la estructura HTML del aspecto visual. Permite mantener un diseño uniforme y facilita su <br>actualización.</p>
-    <h1>Formas de aplicar CSS en HTML</h1>
-    
+    <h1>Introducción a CSS</h1>
+
+    <h2>1. ¿Qué es CSS y para qué sirve?</h2>
+    <p>CSS (Cascading Style Sheets) es un lenguaje que se utiliza para definir el estilo y diseño visual de las páginas web. Separa el contenido HTML de su apariencia, permitiendo una fácil personalización y mantenimiento del diseño de una web.</p>
+
+    <h2>2. Formas de aplicar CSS en HTML</h2>
+
+    <h3>CSS en línea (inline)</h3>
+    <p>Se aplica directamente en el atributo <code>style</code> de un elemento HTML:</p>
+    <code>
+        &lt;h1 style="color: blue;"&gt;Título con CSS en línea&lt;/h1&gt;
+    </code>
+
+    <h3>CSS en el encabezado (internal)</h3>
+    <p>Se coloca dentro de la etiqueta <code>&lt;style&gt;</code> en la sección <code>&lt;head&gt;</code> del documento HTML:</p>
+    <code>
+        &lt;style&gt;<br>
+        &nbsp;&nbsp;h1 { color: green; }<br>
+        &lt;/style&gt;
+    </code>
+
+    <h3>CSS externo</h3>
+    <p>Se vincula un archivo CSS externo con la etiqueta <code>&lt;link&gt;</code>:</p>
+    <code>
+        &lt;link rel="stylesheet" href="estilos.css"&gt;
+    </code>
+
+    <h2>3. Recursos de aprendizaje</h2>
+    <ul class="resources">
+        <li><strong>MDN Web Docs</strong>: <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">Documentación oficial de CSS</a>.</li>
+        <li><strong>W3Schools</strong>: <a href="https://www.w3schools.com/css/" target="_blank">Tutoriales interactivos sobre CSS</a>.</li>
+        <li><strong>CSS-Tricks</strong>: <a href="https://css-tricks.com/" target="_blank">Técnicas avanzadas y guías sobre CSS</a>.</li>
+    </ul>
 </body>
 </html>
