@@ -5,23 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>padding</title>
     <style>
-      .bloque{
-        padding: 10px;
-        margin: 10px;
-        background-color: orange;
-        border: 10px grey solid;
-        width: 30%;
-        height: 20%;
-        text-align: center;
-      }
+        .exterior{
+            border: 10px solid grey;
+        }
+        .bloque{
+            padding: 10px;
+            margin: 10px;
+            background-color: orange;
+            width: 30%;
+            height: 20%;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <h1>Padding, Margin, Border, Width and Height</h1>
     <p>Explicación de cosas</p>
     <h1>Ejemplo practico</h1>
-    <div class="bloque">
-      <p>-</p>
+    <div class="exterior">
+        <div class="bloque">
+          <p>-</p>
+        </div>
     </div>
 </body>
 </html>
