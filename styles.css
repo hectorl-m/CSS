@@ -12,9 +12,9 @@ body {
     height: 200px;
     padding: 20px;
     margin: 20px;
-    border: 2px solid #bcdb34;
+    border: 2px solid #dbca34;
     border-radius: 20%;
-    background-color: #ecf0f1;
+    background-color: #f0ecf1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
