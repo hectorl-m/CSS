@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Presentación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tarjeta">
+        <h2>Tu Nombre Completo</h2>
+        <h3>Tu Profesión o Título</h3>
+        <p>Soy una persona apasionada por el aprendizaje y el desarrollo continuo. Me encanta explorar nuevas tecnologías y aplicarlas para resolver problemas creativos.</p>
+    </div>
+</body>
+</html>
