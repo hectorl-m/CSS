@@ -1,0 +1,26 @@
+/* Estilos para el id del título */
+#titulo {
+    color: #2E8B57;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/* Estilos comunes para los párrafos con clase 'texto' */
+.texto {
+    color: #555;
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+
+/* Estilos para el botón */
+.boton {
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+#botonEnviar {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
