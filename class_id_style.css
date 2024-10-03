@@ -24,3 +24,10 @@
     color: white;
     cursor: pointer;
 }
+
+#botonEnviar:hover {
+    background-color: #4CAF50;
+    border: solid black 1px;
+    color: white;
+    cursor: pointer;
+}
