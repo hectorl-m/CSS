@@ -14,8 +14,6 @@
 
 /* Estilos para el botón */
 .boton {
-    display: flex;
-    margin: 10px;
     padding: 10px 20px;
     font-size: 1em;
 }
@@ -28,7 +26,6 @@
 }
 
 #botonEnviar:hover {
-    background-color: #a3af4c;
     border: solid black 3px;
     color: white;
     cursor: pointer;
