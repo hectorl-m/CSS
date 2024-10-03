@@ -6,7 +6,8 @@
 }
 /* centrar los bloques */
 .centrado {
-    
+    display: flex;
+    text-align: center;
 }
 
 /* Estilos comunes para los párrafos con clase 'texto' */
