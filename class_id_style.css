@@ -27,7 +27,7 @@
 
 #botonEnviar:hover {
     background-color: #4CAF50;
-    border: solid black 1px;
+    border: solid black 3px;
     color: white;
     cursor: pointer;
 }
