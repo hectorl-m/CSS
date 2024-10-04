@@ -1,0 +1,23 @@
+/* Estilo para el título */
+.titulo {
+    font-size: 2em;
+    color: darkblue;
+}
+
+/* Estilo para los párrafos con id "destacado" */
+#destacado {
+    background-color: lightyellow;
+    color: red;
+}
+
+/* Estilo común para los párrafos con la clase "contenido" */
+.contenido {
+    color: darkgreen;
+    margin: 10px 0;
+}
+
+/* Sobrescribe el estilo del párrafo con id "especial" */
+#especial {
+    background-color: lightgray;
+    border: 2px solid black;
+}
